@@ -4,3 +4,11 @@ new overhaul to calc.c, but instead I decided to make this a seperate project.
 
 # Installation
 compile equate.c with your preferred compiler -- I use cc
+
+Linux: "cc equate.c -o equate && sudo mv equate /bin"
+
+OpenBSD: "cc equate.c -o equate && doas mv equate /usr/local/bin"
+
+# Syntax
+./equate 'number' 'operator' 'number'
+example: equate 2 + 2

@@ -4,10 +4,10 @@
 
 int main(int argc, char *argv[])
 {
-	if(argc >= 3)
+	if(argc == 3)
 	{
 		/*
-		 * Needed integers DO NOT TOUCH
+		 * Needed variables DO NOT TOUCH
 		 */
 		char *x = argv[1];
 		char *y = argv[2];
@@ -45,9 +45,9 @@ int main(int argc, char *argv[])
 	/*
 	 * Error out if arguments are invalid
 	 */
-	if(argc < 3)
+	if(argc != 3)
 	{
-		printf("ERROR: Not enough arguments passed\n");
+		printf("ERROR: Not enough/too many arguments passed\n");
 		return 0;
 	}
 
