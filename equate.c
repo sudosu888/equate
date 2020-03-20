@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[])
 {
-	if(argc == 3)
+	if(argc == 4)
 	{
 		/*
 		 * Needed variables DO NOT TOUCH
@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 	/*
 	 * Error out if arguments are invalid
 	 */
-	if(argc != 3)
+	if(argc != 4)
 	{
 		printf("ERROR: Not enough/too many arguments passed\n");
 		return 0;
