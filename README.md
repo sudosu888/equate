@@ -13,3 +13,9 @@ OpenBSD: "cc equate.c -o equate && doas mv equate /usr/local/bin"
 ./equate 'number' 'operator' 'number'
 
 example: equate 2 + 2
+
+Operators:
+Addition '+'
+Subtraction '-'
+Multiplication 'x'
+Divition '/'
