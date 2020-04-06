@@ -7,12 +7,13 @@ int main(int argc, char *argv[])
 	if(argc == 4)
 	{
 		/*
-		 * Needed variables DO NOT TOUCH
+		 * Character variables for arguments
 		 */
 		char *x = argv[1];
 		char *y = argv[2];
 		char *z = argv[3];
 
+		/* Convert x & y into integers */
 		double num1 = atoi(x);
 		double num2 = atoi(z);
 
