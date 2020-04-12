@@ -6,9 +6,7 @@ int main(int argc, char *argv[])
 {
 	if(argc == 4)
 	{
-		/*
-		 * Character variables for arguments
-		 */
+		/* Character variables for arguments */
 		char *x = argv[1];
 		char *y = argv[2];
 		char *z = argv[3];
@@ -17,9 +15,7 @@ int main(int argc, char *argv[])
 		double num1 = atoi(x);
 		double num2 = atoi(z);
 
-		/*
-		 * Calculate the arguments
-		 */
+		/* Calculate the arguments */
 		switch(*y)
 		{
 			case '+' :
@@ -43,9 +39,7 @@ int main(int argc, char *argv[])
 
 	}
 
-	/*
-	 * Error out if arguments are invalid
-	 */
+	/* Error out if arguments are invalid */
 	if(argc != 4)
 	{
 		printf("ERROR: Not enough/too many arguments passed\n");
