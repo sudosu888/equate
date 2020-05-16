@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 		char *y = argv[2];
 		char *z = argv[3];
 
-		/* Convert x & y into integers */
+		/* Convert x & y into doubles */
 		double num1 = atoi(x);
 		double num2 = atoi(z);
 
